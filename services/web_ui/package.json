@@ -1,0 +1,19 @@
+{
+  "name": "web_ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "GPL-3.0",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.3",
+    "parcel": "^1.12.3",
+    "typescript": "^3.4.2"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
