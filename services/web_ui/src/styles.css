@@ -1,0 +1,35 @@
+.body {
+    display: grid;
+    grid-template-areas: 'nodes projects' 'jobs projects';
+}
+
+.nodes {
+    grid-area: nodes;
+}
+
+.projects {
+    grid-area: projects;
+}
+
+.jobs {
+    grid-area: jobs;
+}
+
+.project-list {
+
+}
+
+.project-list__item {
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 16px;
+}
+
+.project-list__build-btn {
+    cursor: pointer;
+    background: blue;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+}
